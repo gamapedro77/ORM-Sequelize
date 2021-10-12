@@ -1,12 +1,13 @@
 {
   "name": "sequelize-alura",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desenvolvendo Api REST utilizando sequelize ORM",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./api/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pedro Gama",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

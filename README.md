@@ -14,7 +14,7 @@ Por enquanto ainda não há nenhuma pasta _views_. Porém esta será responsáve
 
 #### Migrations, Seeders & Routes
 
-Migrations são linhas direto de comando que realizamos há um banco de dados, como por exemplo criar ou remover uma tabela.
+Migrations são comandos direto que realizamos há um banco de dados, como por exemplo criar ou remover uma tabela.
 
 Seeders são dados mockados que utilizamos para preencher o banco de dados na fase de desenvolvimento.
 

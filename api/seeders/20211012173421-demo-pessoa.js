@@ -1,18 +1,10 @@
 "use strict";
 
 module.exports = {
-  up: async (queryInterface, Sequelize) => {
-    return await queryInterface.bulkInsert(
-      "pessoas",
+  up: (queryInterface, Sequelize) => {
+    return queryInterface.bulkInsert(
+      "Pessoas",
       [
-        {
-          nome: "Marcos Henrique",
-          ativo: true,
-          email: "marcos@marcos.com",
-          role: "estudante",
-          createdAt: new Date(),
-          updatedAt: new Date(),
-        },
         {
           nome: "Ana Souza",
           ativo: true,
@@ -22,33 +14,41 @@ module.exports = {
           updatedAt: new Date(),
         },
         {
-          nome: "José Oliveira",
+          nome: "Marcos Cintra",
           ativo: true,
-          email: "jose@jose.com",
+          email: "marcos@marcos.com",
           role: "estudante",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          nome: "Gabriel Gama",
+          nome: "Felipe Cardoso",
           ativo: true,
-          email: "gabriel@gabriel.com",
+          email: "felipe@felipe.com",
           role: "estudante",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          nome: "Sergio Cardoso",
+          nome: "Sandra Gomes",
+          ativo: false,
+          email: "sandra@sandra.com",
+          role: "estudante",
+          createdAt: new Date(),
+          updatedAt: new Date(),
+        },
+        {
+          nome: "Paula Morais",
           ativo: true,
-          email: "sergio@sergio.com",
+          email: "paula@paula.com",
           role: "docente",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
         {
-          nome: "Paula Gomes",
+          nome: "Sergio Lopes",
           ativo: true,
-          email: "paula@paula.com",
+          email: "sergio@sergio.com",
           role: "docente",
           createdAt: new Date(),
           updatedAt: new Date(),
@@ -58,7 +58,7 @@ module.exports = {
     );
   },
 
-  down: async (queryInterface, Sequelize) => {
-    return await queryInterface.bulkDelete("pessoas", null, {});
+  down: (queryInterface, Sequelize) => {
+    return queryInterface.bulkDelete("Pessoas", null, {});
   },
 };

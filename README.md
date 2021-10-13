@@ -1,6 +1,6 @@
 # SEQUELIZE ORM
 
-## Neste Readme vou tentar explicar o que tá acontecendo no projeto com o intuito de facilitar o meu aprendizado e minha navegação por ele
+> Neste Readme vou tentar explicar o que tá acontecendo no projeto com o intuito de facilitar o meu aprendizado e minha navegação por ele
 
 ### Arquitetura de Pastas MVC
 

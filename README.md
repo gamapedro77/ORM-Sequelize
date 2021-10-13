@@ -16,7 +16,7 @@ Por enquanto ainda não há nenhuma pasta _views_. Porém esta será responsáve
 
 Migrations são comandos direto que realizamos há um banco de dados, como por exemplo criar ou remover uma tabela.
 
-> para rodar as migrações é importante ter instalado o **sequelize-cli** e o **mysql**
+> para rodar as migrações é importante ter instalado o **sequelize-cli** e o **mysql**. Também é necessário que crie-se uma database especifica para o projeto através do comando `CREATE DATABASE escola_ingles;` no terminal do mysql e que seja atualizado a pasta config com suas credenciais do mysql.
 
 No terminal execute:
 `npx sequelize-cli db:migrate`

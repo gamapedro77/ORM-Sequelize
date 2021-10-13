@@ -2,9 +2,9 @@
 
 > Para rodar o projeto execute os comandos `npm install` na raiz do projeto e em seguida `npm start`
 
-### Arquitetura de Pastas MVC
+## Arquitetura de Pastas MVC
 
-#### (M)odels, (V)iews & (C)ontrollers.
+### Models, Views & Controllers.
 
 Na pasta _models_ ficam os modelos, arquivos que tem como responsabilidade executar comandos/querys diretamente no banco de dados.
 
@@ -12,7 +12,7 @@ Na pasta _controllers_ ficam os controladores, arquivos que tem como responsabil
 
 Por enquanto ainda não há nenhuma pasta _views_. Porém esta será responsável por enviar a informação ao usuário seja através de um json ou arquivo HTML.
 
-#### Migrations, Seeders & Routes
+### Migrations, Seeders & Routes
 
 Migrations são comandos direto que realizamos há um banco de dados, como por exemplo criar ou remover uma tabela.
 
@@ -28,7 +28,7 @@ No terminal execute:
 
 Routes é onde organizamos nossas rotas da API.
 
-#### Config
+### Config
 
 O arquivo config tem a responsabilidade de dizer ao Sequelize que ambiente estamos utilizando `"desenvolvimento", "teste", "produção"`,
 assim como informar os dados para conexão com o banco de dados de cada um desses ambientes.
